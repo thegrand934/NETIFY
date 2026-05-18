@@ -4,8 +4,8 @@
     "backend"
   ],
   "scripts": {
-    "build": "cd backend && yarn build",
-    "prestart": "cd backend && yarn build",
+    "build": "cd backend && npm run build",
+    "prestart": "cd backend && npm run build",
     "start": "cd backend && node dist/index.js"
   },
   "dependencies": {
