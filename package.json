@@ -1,4 +1,13 @@
 {
+  "private": true,
+  "workspaces": [
+    "backend"
+  ],
+  "scripts": {
+    "build": "cd backend && yarn build",
+    "prestart": "cd backend && yarn build",
+    "start": "cd backend && node dist/index.js"
+  },
   "dependencies": {
     "firebase": "^12.13.0"
   }
